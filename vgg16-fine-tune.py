@@ -193,6 +193,7 @@ with open("vgg16_tf_cat_dog_final_dense2.json", "w") as json_file:
 
 from IPython.display import display
 import matplotlib.pyplot as plt
+import Image
 
 X_val_sample, _ = next(validation_generator)
 y_pred = model.predict(X_val_sample)
